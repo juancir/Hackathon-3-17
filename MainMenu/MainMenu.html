@@ -7,25 +7,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="MainMenu.css" />
-    <script src="MainMenu/MainMenu.js"></script>
+
 </head>
 
 <body>
-    
+
 
 
     <div class="container">
-        
-        <center>
-        <div>
-            <h1 class="game">The game</h1>
-        </div>
 
-            <button id="btnplay" class="btn btn-primary" onclick="window.location.href='../LevelSelect/LevelSelect.html'" >Play</button> <br> <br>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" >About the Game</button>
-            
+        <center>
+            <div>
+                <h1 class="game">Space Maze</h1>
+            </div>
+
+            <button id="btnplay" class="btn btn-primary" onclick="window.location.href='../LevelSelect/LevelSelect.html'">Play</button>
+            <br> <br>
+            <button id="Maze" class="btn btn-primary" onclick="window.location.href='../Maze/Maze.html'">Bonus Game</button>
+            <br> <br>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">About the Game</button>
+
         </center>
-        
+
     </div>
 
     <!-- Modal -->
@@ -39,16 +42,14 @@
                     <h1 class="modal-title" id="exampleModalLongTitle">The Story</h1>
                 </div>
                 <div class="modal-body">
-                    <p>You are Jones Spismen. A daring Space Explorer. The earth is at the brink of extinction due to 
-                    a lack of resources and impending disasters. Your plan to save the human race is this: explore and sample data 
-                    from exo-planets for their suitability for human life, avoid black holes and other possible dangers, and bring
-                    back all the data back to Earth to form the best plan of action to save everyone. The fate of humanity rests in
-                    your hands.</p>
+                    <p>You are Jones Spismen. A daring Space Explorer. The earth is at the brink of extinction due to a lack of resources and impending disasters. Your plan to save the human race is this: explore and sample data from exo-planets for their
+                        suitability for human life, avoid black holes and other possible dangers, and bring back all the data back to Earth to form the best plan of action to save everyone. The fate of humanity rests in your hands.</p>
                 </div>
-                <div class="modal-header"><h1>How to Play</h1></div>
+                <div class="modal-header">
+                    <h1>How to Play</h1>
+                </div>
                 <div class="modal-body">
-                    <p>When starting the game, you'll see the planets you need to explore. Click a planet to explore one for data.
-                    There is a planet that is locked until you complete planet #1.</p>
+                    <p>When starting the game, you'll see the planets you need to explore. Click a planet to explore one for data. There is a planet that is locked until you complete planet #1.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -60,6 +61,7 @@
 
 
 
+    <script type="text/javascript" src="MainMenu.js"></script>
 
 </body>
 

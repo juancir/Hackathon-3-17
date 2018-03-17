@@ -1,20 +1,27 @@
-body{
+body {
     background: url("https://wallpapercave.com/wp/j8eMFrM.jpg") no-repeat fixed;
 }
 
-.container{
+.container {
     width: 200px;
     height: 200px;
     margin-top: 120px;
     padding-top: 40px;
 }
 
-#btnplay{
+#btnplay {
     width: 126px;
 }
 
-.game{
+.game {
     font-size: 60px;
     color: white;
     margin-bottom: 100px;
 }
+
+h1 {
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+#Maze {}

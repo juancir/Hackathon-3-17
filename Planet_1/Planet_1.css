@@ -1,5 +1,5 @@
 body {
-  background: url("ice-planet.gif") no-repeat fixed;
+  background: url("ice_planet.gif") no-repeat fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -62,4 +62,8 @@ body {
 
 p {
   color: red;
+}
+
+header {
+  text-align: center;
 }

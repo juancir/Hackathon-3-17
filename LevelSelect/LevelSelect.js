@@ -12,6 +12,26 @@ $(".planet2").click(function() {
     get();
 });
 
+$(".planet4").click(function() {
+
+    var a;
+
+    arr = JSON.parse(s.getItem("Tracker"));
+
+    arr.forEach(function(it) {
+        a = it.Planet2;
+        console.log(a);
+    });
+
+    if (a == true) {
+        window.location.href = '../LevelSelect/GameWin.html';
+    }
+    else {
+        alert("Complete Planet 1 and 2 First.");
+    }
+
+});
+
 function get() {
     var a;
 
@@ -29,16 +49,3 @@ function get() {
         alert("Complete Planet 1 First.");
     }
 }
-
-$(document).ready(function() {
-
-    $.getJSON(
-
-        "https://api.giphy.com/v1/gifs/search?q=warp&api_key=dc6zaTOxFJmzC",
-
-
-        function(response) {
-            console.log(response);
-            $("#gif").append("<img src=" + response.data[4].images.fixed_width_downsampled.url + ">");
-        });
-});

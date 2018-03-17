@@ -1,65 +1,75 @@
-body { 
-  background: url("Mars-background.jpg") no-repeat fixed;
-  background-size: cover;
-} 
+body {
+    background: url("Mars-background.jpg") no-repeat fixed;
+    background-size: cover;
+}
 
-#astronaut_man { 
-     margin-top: -250px; 
-     position: absolute;
-} 
+#astronaut_man {
+    margin-top: -250px;
+    position: absolute;
+}
 
-#PReg{
-    height:75px;
-    width:75px;
-    margin-left:1500px;
+#PReg {
+    height: 75px;
+    width: 75px;
+    margin-left: 1300px;
     margin-top: -280px
 }
 
-#platform{
-    height:100px;
-    width:250px;
+#platform {
+    height: 100px;
+    width: 250px;
     background-color: red;
     margin-top: 560px;
 }
-#platform_2{
-    height:100px;
-    width:300px;
+
+#platform_2 {
+    height: 100px;
+    width: 300px;
     background-color: red;
     margin-top: 50px;
-    margin-left:600px;
+    margin-left: 600px;
 }
-#stair_1{
-    height:100px;
-    width:100px;
+
+#stair_1 {
+    height: 100px;
+    width: 100px;
     background-color: red;
-    margin-left:250px;
-    margin-top:-150px;
+    margin-left: 250px;
+    margin-top: -150px;
 }
-#stair_2{
-    height:100px;
-    width:100px;
+
+#stair_2 {
+    height: 100px;
+    width: 100px;
     background-color: red;
-    margin-left:325px;
-    margin-top:-150px;
+    margin-left: 325px;
+    margin-top: -150px;
 }
-#stair_3{
-    height:100px;
-    width:100px;
+
+#stair_3 {
+    height: 100px;
+    width: 100px;
     background-color: red;
-    margin-left:400px;
-    margin-top:-150px;
+    margin-left: 400px;
+    margin-top: -150px;
 }
-#block{
-    height:100px;
-    width:100px;
-    background-color:red;
-    margin-left:1000px;
-    margin-top:-200px;
+
+#block {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-left: 1000px;
+    margin-top: -200px;
 }
-#platform_3{
-    height:100px;
-    width:507px;
+
+#platform_3 {
+    height: 100px;
+    width: 244px;
     background-color: red;
     margin-top: -100px;
-    margin-left:1200px;
+    margin-left: 1200px;
+}
+
+header {
+    text-align: center;
 }
