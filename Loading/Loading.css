@@ -8,7 +8,7 @@ body {
 }
 
 #myBar {
-    width: 10%;
+    width: 0%;
     height: 550px;
   background:  url("blackhole.gif") no-repeat center center fixed; 
   background-size: cover;
@@ -18,7 +18,3 @@ body {
 }
 
 
-
-#background2 {
-
-}
