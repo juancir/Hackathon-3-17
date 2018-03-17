@@ -1,6 +1,6 @@
 body {
-  background: url() no-repeat center center fixed;
-  background-size: 40%;
+  background: url("blackhole.gif") no-repeat center center fixed;
+  background-size: cover;
 
 }
 
