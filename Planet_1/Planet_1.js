@@ -76,6 +76,7 @@ var file = [];
 function set(){
     file.push({"Planet1": true});
     s.setItem("Tracker", JSON.stringify(file));
+    window.location.href='../LevelSelect/LevelSelect.html';
 }
 
 //   function leftArrowPressed() {
