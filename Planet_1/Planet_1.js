@@ -69,4 +69,5 @@ function set(){
     s.setItem("Tracker", JSON.stringify(file));
     window.location.href='../LevelSelect/LevelSelect.html';
 }
+
 });  

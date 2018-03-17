@@ -5,6 +5,7 @@ body {
 
 #astronaut_man { 
      margin-top: 300px;  
+     position: absolute;
 } 
 #Oxy{
     height:100px;
