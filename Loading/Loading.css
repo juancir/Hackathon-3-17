@@ -1,0 +1,24 @@
+body { 
+  background:  url() no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.sgame{
+  width: 111px;
+}
+
+#myBar {
+    width: 10%;
+    height: 550px;
+  background:  url("blackhole.gif") no-repeat center center fixed; 
+  background-size: cover;
+    text-align: center; 
+    line-height: 30px; 
+    color: white; 
+}
+
+
+
+.sgame {
+background-image: url("blackhole.gif");
+}

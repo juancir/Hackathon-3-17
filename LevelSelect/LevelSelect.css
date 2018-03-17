@@ -1,0 +1,35 @@
+body{
+    background: url("https://wallpapercave.com/wp/j8eMFrM.jpg") no-repeat fixed;
+}
+
+img{
+    position: absolute;
+}
+
+.planet1{
+    width: 120px;
+    height: 120px;
+    top: 20px;
+}
+
+.planet2{
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 800px;
+}
+
+.planet3{
+    width: 230px;
+    height: 230px;
+    top: 300px;
+    left: 240px;
+}
+
+.planet4{
+    width: 120px;
+    height: 120px;
+    top: 400px;
+    left: 1000px;
+}
+

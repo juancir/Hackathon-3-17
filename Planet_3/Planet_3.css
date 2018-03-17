@@ -1,0 +1,12 @@
+body { 
+  background: url("water_planet.gif") no-repeat fixed;
+  background-size: cover;
+} 
+
+#astronaut_man { 
+     margin-top: 300px;  
+} 
+#Oxy{
+    height:100px;
+    width:75px;
+}

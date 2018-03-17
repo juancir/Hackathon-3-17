@@ -1,0 +1,12 @@
+.wall{
+    width:100px;
+    height:100px;
+    background-color:blue;
+}
+img{
+    width:100px;
+    height:100px;
+}
+#block2{
+    margin-left:100px;
+}

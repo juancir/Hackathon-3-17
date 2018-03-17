@@ -1,0 +1,65 @@
+body {
+  background: url("ice-planet.gif") no-repeat fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#Part_1 {
+
+  height: 75px;
+  width: 75px;
+
+}
+
+#astronaut_man {
+  position: absolute;
+  margin-left: -35px;
+  bottom: 132px;
+  z-index: 2;
+}
+
+#space_items {
+  position: fixed;
+  top: 64%;
+  right: 23%;
+}
+
+.platform {
+  width: 100%;
+  height: 160px;
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  z-index: -2;
+}
+
+.hole {
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.block {
+  width: 122px;
+  height: 83px;
+  background-color: green;
+  right: 50%;
+  position: absolute;
+  bottom: 24%;
+}
+
+.skyplatform {
+  width: 244px;
+  height: 46px;
+  background-color: red;
+  left: 69%;
+  position: absolute;
+  top: 47%;
+}
+
+p {
+  color: red;
+}

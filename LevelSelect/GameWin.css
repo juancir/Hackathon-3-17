@@ -1,0 +1,13 @@
+body{
+    background: url("https://wallpaperbrowse.com/media/images/full-hd-nature-wallpapers-free-downloads.jpg") no-repeat fixed;
+}
+
+.win{
+    margin-top: 140px;
+}
+
+button{
+    width: 160px;
+    height: 40px;
+    font-size: 140px;
+}

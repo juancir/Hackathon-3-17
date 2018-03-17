@@ -1,4 +1,4 @@
 /* global $*/
 $(document).ready(function() {
-
+    
 });
