@@ -21,7 +21,7 @@ $(document).ready(function() {
            if ( y <= 450) {
                console.log(y);
                $("#astronaut_man").css("top", 495);
-            y = 4950;
+            y = 495;
            }
        }, 1000);
     } 
@@ -47,7 +47,6 @@ $(document).ready(function() {
 			// Right Arrow Pressed
 			case 39:
 			    if(x >= 1200){ 
-			        
 			    } else {   
                     moveRight();
 			    }
@@ -58,5 +57,15 @@ $(document).ready(function() {
 				break;
 		}
 	});
+
+var s = window.localStorage;
+var arr;
+var file = [];
+
+function set(){
+    file.push({"Planet3": true});
+    s.setItem("Tracker", JSON.stringify(file));
+    window.location.href='../LevelSelect/LevelSelect.html';
+}
 
 });

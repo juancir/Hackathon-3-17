@@ -22,7 +22,7 @@ $(document).ready(function() {
            if ( y <= 450) {
                console.log(y);
                $("#astronaut_man").css("top", 495);
-            y = 4950;
+            y = 495;
            }
        }, 1000);
     } 

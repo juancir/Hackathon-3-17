@@ -3,6 +3,13 @@
     height:100px;
     background-color:blue;
 }
+.end{
+    width:100px;
+    height:100px;
+    background-color:green;
+    margin-left:400px;
+    margin-top:900px;
+}
 img{
     width:100px;
     height:100px;
