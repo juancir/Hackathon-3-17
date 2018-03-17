@@ -35,7 +35,7 @@ $(document).ready(function() {
         var astroBottom = astroTop + $("#astronaut_man").height();
         var endBottom = endTop + $(".end").height();
         if (astroRight > endLeft && astroLeft < endRight && astroBottom > endTop && astroTop < endBottom) {
-            window.location.replace("https://hackathon-3-17-juan21.c9users.io/LevelSelect/GameWin.html")
+            window.location.href="../LevelSelect/GameWin.html";
         }
     }
     $(document).keydown(function(key) {
